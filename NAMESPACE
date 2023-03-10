@@ -1,3 +1,0 @@
-useDynLib(JarvisMarch, .registration=TRUE)
-importFrom(Rcpp, evalCpp)
-exportPattern("^[[:alpha:]]+")
