@@ -9,7 +9,11 @@ jarvis_march_all<-function(input){
 	jarvis_march(input)
 	
   }else if(class(input)=="numeric"){
-  
+	
+  	if(length(input)%%2 != 0){
+		stop("Not all points have length 2")
+	}
+	  
   	list_of_points <- list()
   	for(i in 1:(length(input)/2)){
   	  list_of_points[i] <- list(c(input[2*i-1],input[2*i]))
