@@ -1,12 +1,12 @@
 Package: JarvisMarch
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Implementation of the Jarvis March Algorithm 
 Version: 1.0
 Date: 2023-03-20
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one
-        or more full sentences.
+Author: Adam Page
+Maintainer: Adam Page <a.d.page@lancaster.ac.uk>
+Description: Implements the Jarvis March gift wrapping algorithm
+        to find the convex hull of a set of 2D points in R.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.10)
 LinkingTo: Rcpp
