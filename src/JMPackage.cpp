@@ -95,7 +95,7 @@ std::list<std::vector<double> >  jarvis_march(std::list<std::vector<double> > li
         for (int i=0;i < points.size();i++) //for all points
         {
             
-            if (i==1)
+            if (i==l)
             {
                 continue;
             }
