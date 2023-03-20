@@ -17,7 +17,7 @@
   of the R classes, list, vector, or data frame - all of which must be numeric,
   or integer. If a string or character is inputted, an error will aslo display.
   
-  The first function is 'jarvis_march( list_of_points )'. This is a bare bones
+  The first function is `jarvis_march( list_of_points )`. This is a bare bones
   function written in C++, it performs the Jarvis March algorithm on a list of
   points of the form `(x,y)`. This function has no error checking, plotting 
   capabilities, or the ability to take any input other than a list of points.
