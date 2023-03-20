@@ -30,7 +30,7 @@ jarvis_march_all<-function(input,plot=FALSE){
       print(hullplot)
     }
     output
-  }else if(class(input)=="numeric"){
+  }else if(class(input)=="numeric" | class(input)=="integer"){
     
     if(length(input)%%2 != 0){
       stop("Not all points have length 2")
