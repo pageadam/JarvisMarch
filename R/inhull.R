@@ -9,7 +9,7 @@ in_hull<-function(Original_Set,Test_Point,print=TRUE){
   }else if(class(Test_Point)=="numeric"){
     
     if(length(Test_Point)%%2 != 0){
-      stop("Not all points have length 2")
+      stop("Not all test points have length 2")
     }
     
     list_of_points <- list()
