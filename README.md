@@ -75,3 +75,9 @@ The output of this function is a boolean `TRUE/FALSE`. If all points in `Test_Se
 The function performs error checking on the `Test_Set` input as well.
 
 The final input is `print=TRUE`, this allows the user to see which points are found to be in the hull and gives a message to say if all/some/none of the points of the `Test_Set` are found to be in the convex hull of `Original_Set`. For a large amount of points this could get very annoying so to switch it off set `plot=FALSE`.
+
+## Influence
+
+Follow this link for more information on coding the Jarvis March algorithm, specifically in python:
+
+https://algorithmtutor.com/Computational-Geometry/Convex-Hull-Algorithms-Jarvis-s-March/
